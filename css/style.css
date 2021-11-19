@@ -8,6 +8,13 @@ h1.intro{
     color: text;
     font-weight: normal;
 }
+h1.code{
+
+ text-align: center;
+    font-family: sans-serif;
+    color: text;
+    font-weight: normal;
+}
 div.web{
     float: left;
     width: 100%;
@@ -56,4 +63,27 @@ button.meni{
 }
 button.meni:hover{
     font-size: 115%;
+}
+div.page{
+    float: left;
+    width: 100%;
+    height: 90%;
+    background-image:url("../img/fire.jpg");
+   
+}
+div.code{
+   
+    width: 65%;
+    height: 70%;
+    margin: auto;
+    background-color: rgb(255, 217, 159);
+    margin-top: 6%;
+    padding-top: 1%;
+
+}
+div.end{
+    float: left;
+    width: 100%;
+    height: 10%;
+    background-color: black;
 }
