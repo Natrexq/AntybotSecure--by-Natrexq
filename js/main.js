@@ -59,6 +59,16 @@ function Check(){
         location.href = "https://github.com/Natrexq/AntybotSecure--by-Natrexq";
 
     }
+    function GoAuthor(){
+
+        location.href = "https://github.com/Natrexq";
+
+    }
+    function GoTerms(){
+
+        location.href = "https://github.com/Natrexq/AntybotSecure--by-Natrexq/blob/main/Terms.txt";
+
+    }
 
     
 
