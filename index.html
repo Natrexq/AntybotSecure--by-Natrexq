@@ -10,6 +10,12 @@
 
     </head>
     <body>
+
+            <script type="text/javascript" src="js/main.js">
+
+
+
+        </script>
         <div class="web">
 
             <div class="start">
@@ -31,12 +37,13 @@
 
                     <div class="veryfi">
                        <h1 class="very">Veryfication</h1>
-                       <input class="gencodein" type="text" disabled="disabled" name="gnnm" placeholder="code">
+                       <input class="gencodein" type="text" id="cdid" disabled="disabled" name="gnnm" placeholder="code">
+                       <button class="goin" type="submit" name="gonm" id="genid" onclick="Generate()">Generate</button>
                        <input class="codein" type="number" name="cdnm" placeholder="Generated code">
                        <br />   
-                       <br />   
-                       <br />   
-                       <button class="goin" type="submit" name="gonm">Go</button>
+                        
+                       
+                       <button class="vein" type="submit" name="gonm" onclick="Check()">Go</button>
 
                     </div>
 
