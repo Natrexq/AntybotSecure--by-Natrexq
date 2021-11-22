@@ -10,10 +10,20 @@ h1.intro{
 }
 h1.code{
 
- text-align: center;
-    font-family: sans-serif;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+
     color: text;
+    font-weight: bold;
+    
+}
+h1.very{
+    font-family: sans-serif;
     font-weight: normal;
+    padding-top: 3%;
+    color: black;
+    text-align: center;
 }
 div.web{
     float: left;
@@ -73,10 +83,14 @@ div.page{
 }
 div.code{
    
-    width: 65%;
+    width: 50%;
     height: 70%;
     margin: auto;
-    background-color: rgb(255, 217, 159);
+    border: 5px solid none;
+    color: white;
+    border-radius: 90px 90px 30px 30px;
+    background-color: none;
+    backdrop-filter: blur(2px);
     margin-top: 6%;
     padding-top: 1%;
 
@@ -86,4 +100,16 @@ div.end{
     width: 100%;
     height: 10%;
     background-color: black;
+}
+div.veryfi{
+    
+    margin: auto;
+    border-radius: 100px;
+    border: 1px solid none;
+
+    width: 75%;
+    height: 80%;
+   
+    margin-top: 3%;
+    background-color: white;
 }
