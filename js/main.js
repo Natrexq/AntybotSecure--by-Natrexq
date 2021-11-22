@@ -1,5 +1,4 @@
-
-var Code = Math.floor(Math.random() * 782989);
+var genCode = Math.floor(Math.random() * 6762321921);
 
 
 
@@ -8,9 +7,9 @@ function Generate(){
 
     
 
-    var Gene = document.getElementById('getid');
+    
 
-    document.getElementById('genid').innerHTML = Gene;
+    document.getElementById('cdid').innerHTML = genCode;
 
 
 
@@ -18,6 +17,21 @@ function Generate(){
 }
 function Check(){
 
+    var valCode;
 
+
+
+    valDoc = document.getElementById('codeinp').value;
+
+    alert(valDoc);
+
+    if(valDoc == genCode){
+        alert("tak");
+    }
+    else{
+        alert("nie");
+    }
+
+    
 
 }
