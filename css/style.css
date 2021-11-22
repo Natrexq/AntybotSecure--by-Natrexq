@@ -19,7 +19,9 @@ h1.code{
     
 }
 h1.very{
-    font-family: sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 220%;
     font-weight: normal;
     padding-top: 3%;
     color: black;
