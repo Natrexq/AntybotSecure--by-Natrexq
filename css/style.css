@@ -115,3 +115,40 @@ div.veryfi{
     margin-top: 3%;
     background-color: white;
 }
+button.goin{
+    margin-left: 24%;
+    margin-top: 25%;
+    width: 50%;
+    box-shadow: 1px 0.5px 5px black;
+    border:1px solid white ;
+    height: 12%;
+    font-size: 160%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 17px;
+    background-color: white;
+   
+
+}
+input.codein{
+    box-shadow: 1px 0.5px 4px black;
+    font-size: 110%;
+    text-align: center;
+    font-weight: normal;
+    border:1px solid white ;
+    border-radius: 20px;
+    width: 50%;
+    height: 10%;
+    margin-left: 24%;
+}
+input.codein:hover{
+    font-size: 113%;
+    font-weight: normal;
+    text-align: center;
+    border:1px solid white ;
+    box-shadow: 1px 0.5px 4px black;
+    border-radius: 20px;
+    width: 50%;
+    height: 10%;
+    margin-left: 24%;
+}
