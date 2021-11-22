@@ -1,1 +1,5 @@
-# Terms
+<<<<<<< HEAD
+Terms
+=======
+
+>>>>>>> bde0afe5ba4ffe6ad92bb696813f90792605fae4
