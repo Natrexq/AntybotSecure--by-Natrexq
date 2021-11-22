@@ -40,9 +40,9 @@ function Check(){
         }
         else{
             if(valDoc == genCode){
-                alert("tak");
                 CodeJL.borderColor = "white";
                 DocSty.borderColor = "white";
+                location.href = "/yourwebsite.html"
             }
             else{
                 alert("Bad Code!");
