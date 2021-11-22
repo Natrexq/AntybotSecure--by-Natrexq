@@ -10,6 +10,7 @@ function Generate(){
     
 
     document.getElementById('cdid').innerHTML = genCode;
+   
 
 
 
@@ -17,21 +18,48 @@ function Generate(){
 }
 function Check(){
 
-    var valCode;
-
+    
+    var CodeJL;
 
 
     valDoc = document.getElementById('codeinp').value;
 
-    alert(valDoc);
+    DocSty = document.getElementById('codeinp').style;
 
-    if(valDoc == genCode){
-        alert("tak");
+     CodeJL = document.getElementById('butgen').style;
+
+  
+    
+        if(valDoc == ""){
+
+            alert("Please firs generate verification code and put it in number input");
+            CodeJL.borderColor = "red";
+            DocSty.borderColor = "red";
+            
+
+        }
+        else{
+            if(valDoc == genCode){
+                alert("tak");
+                CodeJL.borderColor = "white";
+                DocSty.borderColor = "white";
+            }
+            else{
+                alert("Bad Code!");
+                CodeJL.borderColor = "red";
+                 DocSty.borderColor = "red";
+               
+            }
+        }
+
+        
     }
-    else{
-        alert("nie");
+    function GoProject(){
+
+        location.href = "https://github.com/Natrexq/AntybotSecure--by-Natrexq";
+
     }
 
     
 
-}
+    
